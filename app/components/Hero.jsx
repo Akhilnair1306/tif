@@ -11,7 +11,7 @@ const Hero = () => {
                     className="w-full h-full object-cover md:rounded-bl-[400px] rounded-bl-[200px]"
                 />
                 <img
-                    src="/vector1.png"
+                    src="/Vector1.png"
                     alt="Vector Overlay"
                     className="absolute md:top-[11px] md:right-[-420px] w-full h-full object-contain pointer-events-none z-10"
                 />
