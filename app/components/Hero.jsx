@@ -13,11 +13,11 @@ const Hero = () => {
                 <img
                     src="/Vector1.png"
                     alt="Vector Overlay"
-                    className="absolute md:top-[11px] md:right-[-420px] md:w-full md:h-full w-[375px] h-[425px] object-contain pointer-events-none z-10"
+                    className="absolute md:top-[11px] md:right-[-420px] w-full h-full object-contain pointer-events-none "
                 />
                 <Button
                     variant="outline"
-                    className="absolute md:top-8 md:right-8 top-4 right-2 bottom-3 bg-red-600 text-white rounded-full px-6 py-2 z-10"
+                    className="absolute md:top-8 md:right-8 top-4 right-2 bottom-3 bg-red-600 text-white rounded-full px-6 py-2 "
                 >
                     Get in Touch
                 </Button>
