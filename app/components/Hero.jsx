@@ -4,21 +4,17 @@ import React from 'react';
 const Hero = () => {
     return (
         <div className="flex flex-col md:flex-row justify-between items-center md:items-start p-3 h-screen overflow-hidden">
-            {/* Left side (image and button) */}
-            <div className="flex-1 flex items-center justify-center order-first md:order-last mb-6 md:mb-0 h-1/2 md:h-auto w-full relative">
-                {/* Hero image */}
+            <div className="flex-1 flex items-center justify-center order-first md:order-last mb-6 md:mb-0 h-1/2 md:h-auto w-full">
                 <img
                     src="/hero.jpg"
                     alt="Hero Image"
                     className="w-full h-full object-cover md:rounded-bl-[400px] rounded-bl-[200px]"
                 />
-                {/* Vector Overlay */}
                 <img
                     src="/Vector1.png"
                     alt="Vector Overlay"
                     className="absolute md:top-[11px] md:right-[-420px] w-full h-full object-contain pointer-events-none z-10"
                 />
-                {/* Button */}
                 <Button
                     variant="outline"
                     className="absolute md:top-8 md:right-8 top-4 right-2 bg-red-600 text-white rounded-full px-6 py-2 z-10"
@@ -27,7 +23,6 @@ const Hero = () => {
                 </Button>
             </div>
 
-            {/* Right side (text and buttons) */}
             <div className="flex-1 flex flex-col items-center md:items-start md:ml-16 order-last md:order-first text-center md:text-left px-4">
                 <div className="hidden md:flex mb-4">
                     <img src="/logo.png" alt="Logo" className="h-16" /> 
